@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Seeding Simple và FB Messenger Hub: hai công cụ desktop giúp đội ngũ nhỏ vận hành nhiều hồ sơ và nhiều tài khoản mạng xã hội an toàn, có kiểm soát." />
+  <link rel="icon" href="assets/app-icon.png" />
+  <title>Seeding Simple &amp; FB Messenger Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Về đầu trang Seeding Simple"><span class="brand-mark">SS</span><span>Seeding Simple</span></a>
+    <nav aria-label="Điều hướng trang">
+      <a href="#overview">Tổng quan</a><a href="#features">Tính năng</a><a href="#workflow">Quy trình</a><a href="#safety">An toàn</a><a href="#messenger-hub">Messenger Hub</a>
+    </nav>
+    <span class="version">Windows Beta 0.1</span>
+  </header>
+
+  <main id="top">
+    <section class="hero" id="overview">
+      <div class="hero-copy reveal">
+        <h1>Vận hành nhiều hồ sơ mạng xã hội an toàn hơn.</h1>
+        <p>Seeding Simple gom việc nhận nội dung, quy tắc ảnh riêng cho từng hồ sơ, hàng đợi duyệt bài và tự động hóa có kiểm soát vào một không gian làm việc gọn gàng trên Windows.</p>
+        <div class="actions"><a class="button primary" href="#features">Khám phá sản phẩm <span>→</span></a><a class="button secondary" href="#validation">Xem kết quả kiểm thử</a></div>
+        <a class="hero-also" href="#messenger-hub">Sản phẩm thứ hai: <b>FB Messenger Hub</b> →</a>
+      </div>
+      <div class="product-stage reveal">
+        <div class="window-bar"><span></span><span></span><span></span><b>Seeding Simple Beta</b></div>
+        <img src="assets/product-setup.png" alt="Màn hình thiết lập ban đầu và trạng thái sẵn sàng của Seeding Simple" />
+      </div>
+      <div class="hero-foot reveal"><span>01</span><h2>Từ nội dung đến thực thi nhất quán.</h2><p>Giúp đội ngũ nhỏ chuẩn hóa cách chuẩn bị, duyệt và chạy công việc theo từng hồ sơ, với khả năng kiểm soát có sẵn ở mọi bước.</p></div>
+    </section>
+
+    <section class="context band" aria-labelledby="problem-title">
+      <div class="section-number">02</div>
+      <div><h2 id="problem-title">Công việc dễ đổ vỡ khi mỗi bước nằm ở một nơi khác nhau.</h2></div>
+      <p>Hồ sơ ở một thư mục. Nội dung ở bảng tính. Ảnh rải khắp ổ đĩa. Đăng bài trên Chrome. Bình luận trong giả lập Android. Seeding Simple biến những mảnh rời rạc đó thành một quy trình duy nhất, theo dõi được từng bước.</p>
+    </section>
+
+    <section class="features" id="features">
+      <div class="feature-heading">
+        <span>03 — Tính năng sản phẩm</span>
+        <h2>Một không gian làm việc. Sáu năng lực vận hành.</h2>
+        <p>Chọn một tính năng để xem sản phẩm hỗ trợ quy trình như thế nào.</p>
+      </div>
+      <div class="feature-explorer">
+        <div class="feature-rail" role="tablist" aria-label="Tính năng sản phẩm">
+          <button role="tab" aria-selected="false" data-feature="profiles"><i>01</i><span><b>Gắn hồ sơ với nhóm</b><small>Kết nối mỗi danh tính với đúng nơi đăng.</small></span></button>
+          <button role="tab" aria-selected="false" data-feature="sheets"><i>02</i><span><b>Nhận nội dung từ Google Sheet</b><small>Biến các dòng đã soạn thành tác vụ hợp lệ.</small></span></button>
+          <button role="tab" aria-selected="true" class="active" data-feature="rules"><i>03</i><span><b>Quy tắc ảnh theo hồ sơ</b><small>Mỗi hồ sơ một logic hình ảnh riêng.</small></span></button>
+          <button role="tab" aria-selected="false" data-feature="images"><i>04</i><span><b>Pinterest &amp; thư viện máy</b><small>Lấy ảnh mà không phụ thuộc một nguồn.</small></span></button>
+          <button role="tab" aria-selected="false" data-feature="queue"><i>05</i><span><b>Hàng đợi duyệt &amp; lên lịch</b><small>Duyệt, hẹn giờ, chạy lại và tạm dừng an toàn.</small></span></button>
+          <button role="tab" aria-selected="false" data-feature="monitor"><i>06</i><span><b>Bình luận MuMu &amp; giám sát trực tiếp</b><small>Theo dõi thao tác Android ngay khi diễn ra.</small></span></button>
+        </div>
+        <div class="feature-stage" role="tabpanel">
+          <div class="demo-shell">
+            <div class="demo-topbar">
+              <div class="demo-badge"><span class="demo-dot"></span><strong>Demo tương tác</strong><small>Dữ liệu mẫu giả lập</small></div>
+              <button id="runDemo" type="button"><span>▶</span> Chạy demo</button>
+            </div>
+            <div class="demo-title">
+              <div><span id="featureWindowLabel">Quy tắc ảnh &amp; trạng thái sẵn sàng</span><h3 id="demoHeading">Quy tắc ảnh theo hồ sơ</h3></div>
+              <div class="demo-live"><i></i><span id="demoStatus">Sẵn sàng chạy</span></div>
+            </div>
+            <div id="demoCanvas" class="demo-canvas" aria-live="polite"></div>
+          </div>
+          <div class="feature-detail">
+            <div><span id="featureLabel">Quy tắc ảnh theo hồ sơ</span><h3 id="featureTitle">Dùng đúng ảnh cho đúng hồ sơ.</h3><p id="featureDescription">Đặt từ khóa và bộ lọc chất lượng riêng cho từng hồ sơ, để thay đổi chiến lược hình ảnh mà không phải đổi quy trình.</p></div>
+            <ul id="featureProofs"><li>Từ khóa ưu tiên và từ khóa loại trừ cho từng hồ sơ</li><li>Chế độ khớp nghiêm ngặt hoặc linh hoạt</li><li>Lọc ảnh có mặt người, watermark hoặc nhiều chữ</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="workflow" id="workflow">
+      <div class="section-head reveal"><span>04</span><h2>Từ vận hành rời rạc đến một luồng có kiểm soát.</h2><p>Thiết lập một lần, sau đó đi từ nội dung đã chuẩn bị đến thao tác thật qua từng chốt kiểm tra.</p></div>
+      <ol class="flow-list" aria-label="Các bước quy trình tương tác">
+        <li class="reveal active" data-workflow="profiles" tabindex="0" role="button" aria-pressed="true"><b>01</b><h3>Kết nối hồ sơ</h3><p>Gắn mỗi hồ sơ Chrome với đúng nhóm và thư mục dữ liệu.</p></li>
+        <li class="reveal" data-workflow="sheets" tabindex="0" role="button" aria-pressed="false"><b>02</b><h3>Nhập nội dung</h3><p>Đọc nội dung bài và lịch đăng từ Google Sheet dùng chung.</p></li>
+        <li class="reveal" data-workflow="rules" tabindex="0" role="button" aria-pressed="false"><b>03</b><h3>Áp quy tắc ảnh</h3><p>Dùng từ khóa, từ loại trừ và bộ lọc chất lượng của từng hồ sơ.</p></li>
+        <li class="reveal" data-workflow="queue" tabindex="0" role="button" aria-pressed="false"><b>04</b><h3>Duyệt hàng đợi</h3><p>Kiểm tra nội dung và hình ảnh trước khi phê duyệt.</p></li>
+        <li class="reveal" data-workflow="checks" tabindex="0" role="button" aria-pressed="false"><b>05</b><h3>Chạy kiểm tra thử</h3><p>Kiểm tra trình duyệt và giả lập mà không thao tác thật.</p></li>
+        <li class="reveal" data-workflow="enable" tabindex="0" role="button" aria-pressed="false"><b>06</b><h3>Bật thao tác thật</h3><p>Chỉ mở khóa đăng bài khi mọi điều kiện đã đạt.</p></li>
+      </ol>
+      <div class="workflow-visual reveal">
+        <div class="workflow-demo-head"><div><span>Demo quy trình tương tác</span><h3 id="workflowDemoTitle">Kết nối hồ sơ</h3></div><p id="workflowDemoText">Thư mục hồ sơ và nơi đăng được kiểm tra trước khi quy trình bắt đầu.</p><span class="workflow-demo-badge"><i></i> Mô phỏng an toàn</span></div>
+        <div class="image-frame workflow-frame">
+          <img id="workflowDemoImage" src="assets/workflow-profiles.gif" alt="Ảnh động minh họa bước Kết nối hồ sơ" />
+        </div>
+        <div class="gate-line"><span class="gate-icon">✓</span><strong>Mọi thao tác thật đều nằm sau một chốt sẵn sàng rõ ràng.</strong><p>Kiểm tra dữ liệu, chạy thử và duyệt tay giúp tránh đăng bài ngoài ý muốn.</p></div>
+      </div>
+    </section>
+
+    <section class="engineering" id="engineering">
+      <div class="engineering-intro reveal"><span>05 — Thiết kế cho thực tế</span><h2>Xây dựng cho những ràng buộc vận hành thật.</h2><p>Sản phẩm được thiết kế xoay quanh tài khoản trên máy, nền tảng luôn thay đổi, và yêu cầu mọi bước tự động đều phải nhìn thấy được và đảo ngược được.</p></div>
+      <div class="principles">
+        <article class="reveal"><span class="line-icon">◎</span><div><h3>Dữ liệu nằm trên máy khách hàng</h3><p>Hồ sơ, lịch sử vận hành và cài đặt được lưu trong thư mục AppData của Windows trên máy khách hàng, không nằm trong cơ sở dữ liệu dùng chung của bên cung cấp.</p></div></article>
+        <article class="reveal"><span class="line-icon">⌘</span><div><h3>Quy tắc ảnh riêng từng hồ sơ</h3><p>Mỗi hồ sơ có thể đặt từ khóa ưu tiên, từ khóa loại trừ, chế độ khớp nghiêm ngặt, nhận diện khuôn mặt, kiểm tra watermark và lọc ảnh nhiều chữ.</p></div></article>
+        <article class="reveal"><span class="line-icon">◇</span><div><h3>Chốt an toàn bằng chạy thử</h3><p>Đăng bài thật yêu cầu kiểm tra Chrome thành công. Bình luận thật yêu cầu kiểm tra thành công trên hai cửa sổ MuMu khác nhau.</p></div></article>
+        <article class="reveal"><span class="line-icon">⊞</span><div><h3>Cài đặt chuẩn Windows</h3><p>Một file Setup.exe quen thuộc gồm sẵn môi trường chạy, lối tắt trên desktop, hướng dẫn ban đầu và dữ liệu khách hàng tách riêng.</p></div></article>
+      </div>
+    </section>
+
+    <section class="validation band" id="validation">
+      <div class="validation-copy reveal"><span>06 — Kiểm thử</span><h2>Kiểm thử như một sản phẩm, không chỉ như mã nguồn.</h2></div>
+      <div class="validation-list reveal">
+        <p><strong>289 / 289</strong><span>bài kiểm thử tự động đạt</span></p>
+        <p><strong>Windows x64</strong><span>đã xác minh cài đặt, khởi chạy và gỡ cài đặt</span></p>
+        <p><strong>Khởi đầu sạch</strong><span>không kèm sẵn hồ sơ, hàng đợi hay thông tin đăng nhập nào</span></p>
+      </div>
+    </section>
+
+    <section class="safety" id="safety">
+      <div class="reveal"><span>07 — An toàn từ thiết kế</span><h2>Tự động hóa phải được tin tưởng trước khi được trao quyền.</h2><p>Đăng bài và bình luận thật luôn bị khóa cho đến khi các bước kiểm tra tương ứng đã đạt.</p></div>
+      <ul class="safety-steps reveal"><li>Kiểm tra hồ sơ</li><li>Xác thực nội dung</li><li>Xác nhận quyền</li><li>Bật thao tác</li></ul>
+    </section>
+
+    <section class="hub" id="messenger-hub">
+      <div class="hub-inner">
+        <div class="hub-intro">
+          <div>
+            <span class="hub-eyebrow">08 — Sản phẩm thứ hai</span>
+            <h2>FB Messenger Hub</h2>
+            <p class="hub-lead">Chạy cùng lúc 3 đến hơn 10 tài khoản Messenger cá nhân trong một ứng dụng desktop. Mỗi tài khoản luôn đăng nhập trong phiên riêng, mọi tin nhắn của khách đổ về một hộp tin chung, kèm CRM ngay cạnh khung chat.</p>
+          </div>
+          <ul class="hub-meta" aria-label="Thông tin sản phẩm">
+            <li><small>Nền tảng</small><b>Ứng dụng desktop Electron</b></li>
+            <li><small>Chạy trên</small><b>Windows · macOS 1.1.0</b></li>
+            <li><small>Bản khôi phục</small><b>stable-2026.09.19-r1</b></li>
+          </ul>
+        </div>
+
+        <div class="mh-block">
+          <div class="mh-head">
+            <h3>Mọi tài khoản cùng đăng nhập, cạnh nhau, trong một cửa sổ.</h3>
+            <p>Mỗi tài khoản có màu riêng trên thanh bên trái và số tin chưa đọc riêng. Tin mới từ mọi tài khoản đổ về một hộp tin chung. Bấm vào một tin hoặc một tài khoản để xem tài khoản đó được tách riêng như thế nào.</p>
+          </div>
+          <div class="mh-demo">
+            <div class="mh-top">
+              <div class="mh-badge"><span class="demo-dot"></span><strong>Demo tương tác</strong><small>Tài khoản và khách hàng giả lập</small></div>
+              <button id="mhRun" type="button"><span>▶</span> Mô phỏng tin nhắn đến</button>
+            </div>
+            <div class="mh-body">
+              <nav class="mh-rail" aria-label="Các tài khoản trong demo">
+                <button type="button" class="mh-feedbtn" id="mhFeedBtn" aria-label="Hộp tin chung"><span class="mh-bell">◉</span><small>FEED</small><b class="mh-count" id="mhTotal">0</b></button>
+                <div class="mh-sep"></div>
+                <div id="mhAccounts" class="mh-accs"></div>
+                <div class="mh-add" aria-hidden="true">+</div>
+              </nav>
+              <div class="mh-feed">
+                <div class="mh-feedhead"><b>Hộp tin chung</b><span id="mhFeedMeta">Tất cả tài khoản</span></div>
+                <ol id="mhFeed" class="mh-list" aria-live="polite"></ol>
+              </div>
+              <aside class="mh-panel" id="mhPanel" aria-live="polite"></aside>
+            </div>
+          </div>
+          <div class="mh-stats">
+            <p><strong>3 – 10+</strong><span>tài khoản cá nhân đăng nhập trên một máy tính</span></p>
+            <p><strong>1 phân vùng</strong><span>riêng cho mỗi tài khoản: cookie, cache và bộ nhớ</span></p>
+            <p><strong>1 hộp tin</strong><span>gom tin chưa đọc từ mọi tài khoản</span></p>
+            <p><strong>Theo từng tài khoản</strong><span>trạng thái an toàn, một tài khoản bị checkpoint chỉ dừng riêng tài khoản đó</span></p>
+          </div>
+        </div>
+
+        <figure class="hub-shot">
+          <div class="hub-bar"><span></span><span></span><span></span><b>FB Messenger Hub · Chat + Mini CRM</b></div>
+          <img src="assets/hub-chat-crm.jpg" alt="Messenger Hub với thanh tài khoản bên trái, cuộc trò chuyện ở giữa và thanh Mini CRM bên phải" loading="lazy" />
+          <figcaption>Màn hình ứng dụng thật. Tên, ảnh đại diện và nội dung tin nhắn đã được làm mờ để bảo vệ người trong cuộc trò chuyện.</figcaption>
+        </figure>
+
+        <div class="hub-grid">
+          <article><i>◫</i><h3>Phiên đăng nhập tách biệt</h3><p>Mỗi tài khoản chạy trong phân vùng <code>persist:fb_account_&lt;id&gt;</code> riêng, nên cookie, cache và bộ nhớ không bao giờ lẫn giữa các tài khoản.</p></article>
+          <article><i>◉</i><h3>Hộp thông báo tập trung</h3><p>Số tin chưa đọc của mọi tài khoản hiện thành huy hiệu và một dòng thời gian chung. Bấm vào tin nhắn là chuyển thẳng sang đúng tài khoản.</p></article>
+          <article><i>▤</i><h3>Thanh Mini CRM</h3><p>Mở một cuộc trò chuyện là hiện ngay số điện thoại, địa chỉ giao hàng, thẻ màu, link Facebook và ghi chú theo ngày của khách đó.</p></article>
+          <article><i>⇅</i><h3>Đồng bộ 2 chiều Google Sheets</h3><p>Thay đổi được đẩy lên Sheet của đội qua Apps Script web app, và những gì sửa trên Sheet được kéo về app mỗi 5 phút.</p></article>
+          <article><i>▽</i><h3>Phễu khách hàng</h3><p>Toàn bộ khách từ mọi tài khoản trong một bảng, đếm theo giai đoạn: khách mới, đang tư vấn, đã chốt, VIP, cần chăm sóc lại và cần chú ý. Xuất CSV mở được trên Excel hoặc JSON.</p></article>
+          <article><i>⧉</i><h3>Copy thông tin đơn một chạm</h3><p>Tên, số điện thoại, địa chỉ, thẻ và ghi chú được copy thành một khối, dán thẳng sang Viettel Post, GHTK hoặc GHN.</p></article>
+        </div>
+
+        <div class="hub-split">
+          <figure class="hub-shot small">
+            <img src="assets/hub-funnel.jpg" alt="Màn hình phễu khách hàng với bộ đếm theo giai đoạn, bộ lọc thẻ và bảng khách hàng" loading="lazy" />
+            <figcaption>Màn hình phễu khách hàng. Tên khách và tên tài khoản đã được làm mờ.</figcaption>
+          </figure>
+          <div class="hub-safety">
+            <span class="hub-eyebrow">Thiết kế để bảo vệ tài khoản cá nhân</span>
+            <h3>Người ngồi trước máy là người bấm gửi mọi tin nhắn.</h3>
+            <ul>
+              <li><b>Không tự điền, không tự gửi.</b> Mọi đường tự nhập hoặc tự gửi tin thay người dùng đã được gỡ bỏ.</li>
+              <li><b>Tự dừng khi gặp checkpoint.</b> Khi Facebook yêu cầu checkpoint, CAPTCHA hoặc xác minh danh tính, Hub dừng mọi tác vụ nền trên tài khoản đó và báo cần xử lý tay.</li>
+              <li><b>Nhận diện trình duyệt trung thực.</b> User agent khớp đúng hệ điều hành thật và phiên bản Chromium đi kèm.</li>
+              <li><b>Chỉ một phiên ứng dụng.</b> Mở Hub lần thứ hai không tạo ra các phiên Messenger tranh chấp nhau.</li>
+              <li><b>Dữ liệu khách nằm trên máy.</b> Phiên đăng nhập và dữ liệu CRM ở lại máy người dùng, không bao giờ nằm trong gói phát hành.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="hub-proof">
+          <p><strong>9 / 9</strong><span>nhóm kiểm thử đạt trên bản macOS 1.1.0</span></p>
+          <p><strong>Apple Silicon + Intel</strong><span>gói .dmg và .zip, cùng bản Windows</span></p>
+          <p><strong>Kiểm tra thực tế</strong><span>khởi động, chuyển tài khoản, CRM và soạn nháp không gửi đều được thử bằng tay</span></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#top"><span class="brand-mark">SS</span><span>Seeding Simple</span></a><p>Seeding Simple · FB Messenger Hub</p><button id="backTop">Lên đầu trang ↑</button></footer>
+  <script src="script.js"></script>
+</body>
+</html>
